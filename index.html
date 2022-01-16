@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +10,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>AUDIOS</title>
 </head>
-
 <body>
-
     <div class="container">
         <div class="listaCanciones">
             <div class="cancion">
                 <div class="nombre">
-                    <h2>Los brazos de papá</h2>
+                    <h5>Los brazos de papá-Grupo Grace</h5>
                 </div>
                 <div class="play" id="Losbrazosdepapa">
                     <h5>Play</h5>
@@ -41,13 +38,60 @@
                     </a>
                 </div>
             </div>
+            <div class="cancion">
+                <div class="nombre">
+                    <h5>Tu Gracia-Generación 12</h5>
+                </div>
+                <div class="play" id="Tu_Gracia">
+                    <h5>Play</h5>
+                    <span style="font-size: 40px;" class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <h5>Cancel</h5>
+                    <span style="font-size: 40px;" class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <h5>Descargar</h5>
+                    <a href="/audio/Tu_Gracia.mp3" download>
+                        <span style="font-size: 40px;" class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="cancion">
+                <div class="nombre">
+                    <h5>Vuelvo a casa-Generación 12+Maverick City Musica</h5>
+                </div>
+                <div class="play" id="Vuelvo_A_Casa">
+                    <h5>Play</h5>
+                    <span style="font-size: 40px;" class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <h5>Cancel</h5>
+                    <span style="font-size: 40px;" class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <h5>Descargar</h5>
+                    <a href="/audio/Vuelvo_A_Casa.mp3" download>
+                        <span style="font-size: 40px;" class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
         <h5>Volumen: </h5>
-
         <input type="range" max="1" min="0" step="0.1" class="volumen">
-
     </div>
     <script src="js/main.js"> </script>
 </body>
-
 </html>
